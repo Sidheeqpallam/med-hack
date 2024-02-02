@@ -1,0 +1,54 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "hackethon",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": 0,
+    "migrationStorage": "sequelize",    
+    "logging": false,
+    "seederStorage": "sequelize"
+  },
+  "syncing": {
+    "username": "root",
+    "password": "password",
+    "database": "sync-hackethon",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": 0,
+    "migrationStorage": "sequelize",
+    "seederStorage": "sequelize"
+  },
+  "staging": {
+    "username": "root",
+    "password": "password", 
+    "database": "hackethon",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": 0,
+    "logging": false,
+    "migrationStorage": "sequelize",
+    "seederStorage": "sequelize"
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "hackethon",
+    "host": "0.0.0.0",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": true,
+    "username": "root",
+    "password": "password", 
+    "database": "hackethon",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": 0,
+    "logging": false,
+    "migrationStorage": "sequelize",
+    "seederStorage": "sequelize"
+  }
+}
